@@ -62,7 +62,7 @@ export default defineComponent({
           return getColorByType(type)
         },
         legend: {
-          position: 'bottom',
+          position: 'right',
         },
         appendPadding: 10,
         height: 300,
