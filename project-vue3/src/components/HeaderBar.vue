@@ -1,7 +1,10 @@
 <template>
   <div id="header">
     <el-row>
-      <el-col :span="24">
+      <el-col :span="1" :offset="1">
+        <el-image :src="require('@/assets/logo.png')" style="width: 60%; margin-top: 10px" />
+      </el-col>
+      <el-col :span="22">
         <h2 class="title">Data Visualization</h2>
       </el-col>
     </el-row>

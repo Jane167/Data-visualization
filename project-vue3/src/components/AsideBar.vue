@@ -1,7 +1,5 @@
 <template>
   <div class="aside" style="width: 100%;">
-
-
     <el-menu router style="min-height: 500px"
              active-text-color="#ffd04b"
              background-color="#545c64"
@@ -11,36 +9,51 @@
              @open="handleOpen"
              @close="handleClose"
     >
-
-
-      <el-menu-item index="/home" route="/home">
+      <el-menu-item index="home">
         <el-icon>
-          <icon-menu/>
+          <HomeFilled/>
         </el-icon>
         <span>Home</span>
       </el-menu-item>
-      <el-menu-item index="/hello" route="/hello">
-        <el-icon>
-          <document/>
-        </el-icon>
-        <span>Hello</span>
-      </el-menu-item>
+      <el-sub-menu index="1">
+        <template #title>
+          <el-icon>
+            <Menu/>
+          </el-icon>
+          <span>Custom Chart</span>
+        </template>
+        <el-menu-item index="pie&groupedColumn">Pie & Grouped Column</el-menu-item>
+        <el-menu-item index="1-2">item two</el-menu-item>
+        <el-menu-item index="1-3">item three</el-menu-item>
+
+      </el-sub-menu>
 
     </el-menu>
 
   </div>
 </template>
 
-<script setup>
-// export default {
-//   name: "AsideBar"
-// }
-const handleOpen = (key, keyPath) => {
-  console.log(key, keyPath)
+<script>
+import {HomeFilled, Menu} from '@element-plus/icons-vue'
+
+export default {
+  name: "AsideBar",
+  components: {Menu, HomeFilled},
+  setup() {
+    const handleOpen = (key, keyPath) => {
+      console.log(key, keyPath)
+    }
+    const handleClose = (key, keyPath) => {
+      console.log(key, keyPath)
+    }
+    return {
+      handleOpen,
+      handleClose
+    }
+  }
 }
-const handleClose = (key, keyPath) => {
-  console.log(key, keyPath)
-}
+
+
 </script>
 
 <style scoped>

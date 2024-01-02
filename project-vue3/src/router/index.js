@@ -2,6 +2,7 @@ import {createRouter, createWebHashHistory} from 'vue-router' //引入vue-router
 
 import Home from '@/views/Home'
 import HelloWorld from '../components/HelloWorld'
+import PieGroupedColumn from "@/views/Chart/Pie&GroupedColumn";
 
 export default new createRouter({
     routes: [
@@ -15,10 +16,11 @@ export default new createRouter({
             name: 'Home',
             component: Home
         },
+
         {
-            path: '/hello',
-            name: 'HelloWorld',
-            component: HelloWorld
+          path: '/pie&groupedColumn',
+          name: 'Pie&GroupedColumn',
+          component: PieGroupedColumn,
         },
         {
             path: '/hello',

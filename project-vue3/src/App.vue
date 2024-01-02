@@ -40,6 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 * {
-  margin: 0 auto;
+  margin: 0;
 }
 </style>
