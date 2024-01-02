@@ -19,8 +19,9 @@
 </template>
 
 <script>
-import AsideBar  from '@/components/AsideBar'
-import HeaderBar  from "@/components/HeaderBar";
+import AsideBar from '@/components/AsideBar'
+import HeaderBar from "@/components/HeaderBar";
+
 export default {
   name: 'App',
   components: {
@@ -36,7 +37,25 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 * {
   margin: 0;
+}
+
+.el-card {
+  overflow: visible !important;
+  margin-top: 15px;
+}
+
+.el-card__header {
+  width: calc(100% - 30px);
+  background: #4caf50;
+  top: -15px;
+  left: 15px;
+  position: relative;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #f6f6f6;
+  box-shadow: #ccc 5px 5px 5px;
 }
 </style>

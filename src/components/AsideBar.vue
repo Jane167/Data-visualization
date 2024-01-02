@@ -1,7 +1,7 @@
 <template>
   <div class="aside" style="width: 100%;">
     <el-menu router style="min-height: 800px"
-             active-text-color="#ffd04b"
+             active-text-color="#4caf50"
              background-color="#000000"
              class="el-menu-vertical-demo"
              default-active="2"
