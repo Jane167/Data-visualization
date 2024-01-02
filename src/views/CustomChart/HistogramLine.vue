@@ -1,0 +1,26 @@
+<template>
+  <el-card class="box-card">
+    <template #header>
+      <div class="card-header">
+        <span>Histogram Line</span>
+      </div>
+    </template>
+
+    <div>
+      <HistogramLineChart/>
+    </div>
+  </el-card>
+</template>
+
+<script>
+import HistogramLineChart from "@/components/Chart/HistogramLineChart";
+
+export default {
+  name: "HistogramRect",
+  components: {HistogramLineChart}
+}
+</script>
+
+<style scoped>
+
+</style>

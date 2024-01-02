@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@antv/g2plot": "^2.4.31",
+    "@types/d3": "^7.1.0",
     "core-js": "^3.8.3",
     "d3": "^6.7.0",
     "element-plus": "^2.4.4",
