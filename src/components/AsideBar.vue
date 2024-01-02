@@ -1,13 +1,14 @@
 <template>
   <div class="aside" style="width: 100%;">
-    <el-menu router style="min-height: 500px"
+    <el-menu router style="min-height: 800px"
              active-text-color="#ffd04b"
-             background-color="#545c64"
+             background-color="#000000"
              class="el-menu-vertical-demo"
              default-active="2"
              text-color="#fff"
              @open="handleOpen"
              @close="handleClose"
+             :collapse="false"
     >
       <el-menu-item index="home">
         <el-icon>
@@ -23,8 +24,8 @@
           <span>Custom Chart</span>
         </template>
         <el-menu-item index="pie&groupedColumn">Pie & Grouped Column</el-menu-item>
-        <el-menu-item index="1-2">item two</el-menu-item>
-        <el-menu-item index="1-3">item three</el-menu-item>
+        <el-menu-item index="histogramRect">Histogram ( rect )</el-menu-item>
+        <el-menu-item index="histogramLine">Histogram ( line )</el-menu-item>
 
       </el-sub-menu>
 

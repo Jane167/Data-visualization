@@ -3,7 +3,7 @@
     <HeaderBar></HeaderBar>
 
     <el-container
-        style="height: 100vh;
+        style="height: auto;
       border: 1px solid #eee;
       margin: 0;
       border: 0;
