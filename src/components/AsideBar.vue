@@ -26,6 +26,8 @@
         <el-menu-item index="pie&groupedColumn">Pie & Grouped Column</el-menu-item>
         <el-menu-item index="histogramRect">Histogram ( rect )</el-menu-item>
         <el-menu-item index="histogramLine">Histogram ( line )</el-menu-item>
+        <el-menu-item index="histogramMulti">Histogram ( multiple )</el-menu-item>
+
 
       </el-sub-menu>
 
