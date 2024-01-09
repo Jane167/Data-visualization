@@ -17,7 +17,7 @@
 <script>
 import AssociatePieChart from "@/components/Chart/AssociatePieChart";
 import ColumnGroup from "@/components/Chart/ColumnGroup";
-import dataset from '@/mock/dataset1.json'
+import dataset from '@/mock/dataset_pie_grouped_column.json'
 import {onMounted, reactive, toRefs} from "vue";
 
 export default {

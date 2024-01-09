@@ -4,7 +4,7 @@
 <script>
 import {onMounted} from "vue";
 import * as d3 from "d3";
-import data from '@/mock/dataset2.json'
+import data from '@/mock/dataset_histogram.json'
 
 export default {
   name: "HistogramRect",

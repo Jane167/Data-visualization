@@ -4,7 +4,7 @@
 
 <script>
 import * as d3 from "d3";
-import data from '@/mock/dataset3.json'
+import data from '@/mock/dataset_multiple_histogram.json'
 import {onMounted} from "vue";
 
 export default {
