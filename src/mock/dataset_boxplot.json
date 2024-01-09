@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Australia",
+    "date": "2024-01-02T08:00Z",
+    "value": 83
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-03T09:00Z",
+    "value": 79
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T10:00Z",
+    "value": 69
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T11:00Z",
+    "value": 70
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T08:00Z",
+    "value": 76
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T08:00Z",
+    "value": 72
+  },
+  {
+    "name": "Australia",
+    "date": "1024-01-07T08:00Z",
+    "value": 74
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T08:00Z",
+    "value": 75
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-01T08:00Z",
+    "value": 73
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-05T08:00Z",
+    "value": 71
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 72
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 91
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 71
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 90
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 80
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 78
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 86
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 87
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 90
+  },
+  {
+    "name": "Australia",
+    "date": "2024-01-04T08:00Z",
+    "value": 77
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-02T08:00Z",
+    "value": 40
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-03T09:00Z",
+    "value": 44
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T10:00Z",
+    "value": 69
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T11:00Z",
+    "value": 45
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T08:00Z",
+    "value": 46
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T08:00Z",
+    "value": 47
+  },
+  {
+    "name": "Oceania",
+    "date": "1024-01-07T08:00Z",
+    "value": 48
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T08:00Z",
+    "value": 49
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-01T08:00Z",
+    "value": 72
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-05T08:00Z",
+    "value": 74
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 81
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 41
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 45
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 48
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 49
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 52
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 53
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 58
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 50
+  },
+  {
+    "name": "Oceania",
+    "date": "2024-01-04T08:00Z",
+    "value": 55
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-02T08:00Z",
+    "value": 54
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-03T09:00Z",
+    "value": 58
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T10:00Z",
+    "value": 59
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T11:00Z",
+    "value": 75
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 76
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 68
+  },
+  {
+    "name": "East Europe",
+    "date": "1024-01-07T08:00Z",
+    "value": 71
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 79
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 63
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-05T08:00Z",
+    "value": 60
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 66
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 51
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 74
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 62
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 69
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 56
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 55
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 56
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 68
+  },
+  {
+    "name": "East Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 67
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-02T08:00Z",
+    "value": 54
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-03T09:00Z",
+    "value": 58
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T10:00Z",
+    "value": 59
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T11:00Z",
+    "value": 75
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 76
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 68
+  },
+  {
+    "name": "West Europe",
+    "date": "1024-01-07T08:00Z",
+    "value": 71
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 79
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-01T08:00Z",
+    "value": 63
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-05T08:00Z",
+    "value": 60
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 66
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 51
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 74
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 62
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 69
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 36
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 55
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 66
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 38
+  },
+  {
+    "name": "West Europe",
+    "date": "2024-01-04T08:00Z",
+    "value": 27
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-02T08:00Z",
+    "value": 114
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-03T09:00Z",
+    "value": 118
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T10:00Z",
+    "value": 129
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T11:00Z",
+    "value": 105
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T08:00Z",
+    "value": 106
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T08:00Z",
+    "value": 108
+  },
+  {
+    "name": "North Africa",
+    "date": "1024-01-07T08:00Z",
+    "value": 110
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T08:00Z",
+    "value": 119
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-01T08:00Z",
+    "value": 103
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-05T08:00Z",
+    "value": 100
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 99
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 110
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 111
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 112
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 119
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 116
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 115
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 98
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 138
+  },
+  {
+    "name": "North Africa",
+    "date": "2024-01-04T08:00Z",
+    "value": 127
+  }
+]

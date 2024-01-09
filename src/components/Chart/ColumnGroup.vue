@@ -176,7 +176,6 @@ export default defineComponent({
             .join("rect")
             .attr("x", d => xScale(d.type))
             .attr("y", d => yScale(d.value))
-            // .attr("width", rectWidth)
             .attr("width", xScale.bandwidth())
             .attr("height", d => yScale(0) - yScale(d.value))
             .attr("fill", d => getColorByType(d.type))

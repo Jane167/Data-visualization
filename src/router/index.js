@@ -5,6 +5,7 @@ import PieGroupedColumn from "@/views/CustomChart/Pie&GroupedColumn";
 import HistogramRect from "@/views/CustomChart/HistogramRect";
 import HistogramLine from "@/views/CustomChart/HistogramLine";
 import HistogramMulti from "@/views/CustomChart/HistogramMulti";
+import BoxPlot from "@/views/CustomChart/BoxPlot";
 
 export default new createRouter({
     routes: [
@@ -38,6 +39,11 @@ export default new createRouter({
             path: '/histogramMulti',
             name: 'HistogramMulti',
             component: HistogramMulti
+        },
+        {
+            path: '/boxPlot',
+            name: 'BoxPlot',
+            component: BoxPlot
         }
     ],
     history: createWebHashHistory()
