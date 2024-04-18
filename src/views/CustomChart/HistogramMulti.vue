@@ -12,13 +12,9 @@
   </el-card>
 </template>
 
-<script>
+<script setup>
 import HistogramMultiChart from "@/components/Chart/HistogramMultiChart";
 
-export default {
-  name: "HistogramMulti",
-  components: {HistogramMultiChart}
-}
 </script>
 
 <style scoped>

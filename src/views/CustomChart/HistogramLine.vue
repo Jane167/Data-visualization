@@ -12,13 +12,8 @@
   </el-card>
 </template>
 
-<script>
-import HistogramLineChart from "@/components/Chart/HistogramLineChart";
-
-export default {
-  name: "HistogramRect",
-  components: {HistogramLineChart}
-}
+<script setup>
+import HistogramLineChart from "@/components/Chart/HistogramLineChart.vue";
 </script>
 
 <style scoped>

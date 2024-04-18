@@ -2,7 +2,7 @@
   <div id="header">
     <el-row>
       <el-col :span="1" style="text-align: right">
-        <el-image :src="require('@/assets/logo.png')" style="width: 30px; margin-top: 20px; " />
+        <el-image :src="require('@/assets/logo.png')" style="width: 30px; margin-top: 20px; "/>
       </el-col>
       <el-col :span="20">
         <h2 class="title">Data Visualization</h2>
@@ -11,10 +11,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HeaderBar"
-}
+<script setup>
+
 </script>
 
 <style scoped>

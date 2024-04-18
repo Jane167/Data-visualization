@@ -12,13 +12,8 @@
   </el-card>
 </template>
 
-<script>
+<script setup>
 import HistogramRectChart from "@/components/Chart/HistogramRectChart";
-
-export default {
-  name: "HistogramRect",
-  components: {HistogramRectChart}
-}
 </script>
 
 <style scoped>

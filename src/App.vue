@@ -1,34 +1,27 @@
 <template>
-  <div class="app">
-    <HeaderBar></HeaderBar>
+  <div id="app">
+    <HeaderBar />
 
     <el-container
         style="height: auto;
-      border: 1px solid #eee;
-      margin: 0;
-      border: 0;
-      padding: 0;">
+        border: 1px solid #eee;
+        margin: 0;
+        border: 0;
+        padding: 0;">
       <el-aside style="width: 200px;">
-        <AsideBar></AsideBar>
+        <AsideBar/>
       </el-aside>
       <el-main>
-        <router-view></router-view>
+        <router-view/>
       </el-main>
     </el-container>
   </div>
 </template>
 
-<script>
+<script setup>
 import AsideBar from '@/components/AsideBar'
 import HeaderBar from "@/components/HeaderBar";
 
-export default {
-  name: 'App',
-  components: {
-    AsideBar,
-    HeaderBar
-  }
-}
 </script>
 
 <style>

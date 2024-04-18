@@ -12,13 +12,9 @@
   </el-card>
 </template>
 
-<script>
+<script setup>
 import BoxPlotChart from "@/components/Chart/BoxPlotChart";
 
-export default {
-  name: "HistogramRect",
-  components: {BoxPlotChart}
-}
 </script>
 
 <style scoped>

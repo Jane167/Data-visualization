@@ -30,7 +30,6 @@
         <el-menu-item index="boxPlot">Box Plot</el-menu-item>
 
 
-
       </el-sub-menu>
 
     </el-menu>
@@ -38,24 +37,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import {HomeFilled, Menu} from '@element-plus/icons-vue'
 
-export default {
-  name: "AsideBar",
-  components: {Menu, HomeFilled},
-  setup() {
-    const handleOpen = (key, keyPath) => {
-      console.log(key, keyPath)
-    }
-    const handleClose = (key, keyPath) => {
-      console.log(key, keyPath)
-    }
-    return {
-      handleOpen,
-      handleClose
-    }
-  }
+
+const handleOpen = (key, keyPath) => {
+  console.log(key, keyPath)
+}
+const handleClose = (key, keyPath) => {
+  console.log(key, keyPath)
 }
 
 
