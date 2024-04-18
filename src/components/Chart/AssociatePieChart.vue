@@ -66,7 +66,7 @@ const draw = () => {
       position: 'right',
     },
     appendPadding: 10,
-    height: 300,
+    height: 270,
     radius: 0.9,
     angleField: 'value',
     label: {

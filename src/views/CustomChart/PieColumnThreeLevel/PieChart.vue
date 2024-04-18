@@ -70,7 +70,7 @@ const draw = () => {
       flipPage: false,
     },
     appendPadding: 10,
-    height: 400,
+    height: 270,
     radius: 0.9,
     angleField: 'value',
     label: {

@@ -1,5 +1,5 @@
 <template>
-  <div id="groupedColumn" class="scrollbar"
+  <div id="three-level-column-containter" class="scrollbar"
        style="height: 100%; position: relative; overflow-x: auto; overflow-y: clip">
     <svg id="three-level-column"/>
   </div>

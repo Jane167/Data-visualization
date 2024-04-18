@@ -1,6 +1,6 @@
 <template>
   <div class="aside" style="width: 100%;">
-    <el-menu router style="min-height: 800px"
+    <el-menu router :style="{height: height}"
              active-text-color="#4caf50"
              background-color="#000000"
              class="el-menu-vertical-demo"
@@ -42,6 +42,7 @@
 
 <script setup>
 import {HomeFilled, Menu} from '@element-plus/icons-vue'
+import {computed} from "vue";
 
 
 const handleOpen = (key, keyPath) => {
@@ -50,6 +51,12 @@ const handleOpen = (key, keyPath) => {
 const handleClose = (key, keyPath) => {
   console.log(key, keyPath)
 }
+
+const height = computed(()=>{
+  console.log(window.offsetHeight)
+  return window.innerHeight - 68 + 'px'
+})
+console.log(height.value)
 
 
 </script>
