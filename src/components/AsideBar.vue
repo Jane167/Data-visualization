@@ -28,6 +28,8 @@
         <el-menu-item index="histogramLine">Histogram ( line )</el-menu-item>
         <el-menu-item index="histogramMulti">Histogram ( multiple )</el-menu-item>
         <el-menu-item index="boxPlot">Box Plot</el-menu-item>
+        <el-menu-item index="volcanoPlot">Volcano Plot</el-menu-item>
+
 
 
       </el-sub-menu>

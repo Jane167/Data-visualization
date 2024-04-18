@@ -44,6 +44,11 @@ export default new createRouter({
             path: '/boxPlot',
             name: 'BoxPlot',
             component: BoxPlot
+        },
+        {
+            path: '/volcanoPlot',
+            name: 'Volcano',
+            component: () => import("@/views/CustomChart/VolcanoPage.vue")
         }
     ],
     history: createWebHashHistory()
