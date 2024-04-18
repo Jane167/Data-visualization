@@ -23,13 +23,14 @@
           </el-icon>
           <span>Custom Chart</span>
         </template>
-        <el-menu-item index="pie&groupedColumn">Pie & Grouped Column</el-menu-item>
+        <el-menu-item index="pieColumnTwoLevel">Two Level Associate</el-menu-item>
+        <el-menu-item index="pieColumnThreeLevel">Three Level Associate</el-menu-item>
+
         <el-menu-item index="histogramRect">Histogram ( rect )</el-menu-item>
         <el-menu-item index="histogramLine">Histogram ( line )</el-menu-item>
         <el-menu-item index="histogramMulti">Histogram ( multiple )</el-menu-item>
         <el-menu-item index="boxPlot">Box Plot</el-menu-item>
         <el-menu-item index="volcanoPlot">Volcano Plot</el-menu-item>
-
 
 
       </el-sub-menu>

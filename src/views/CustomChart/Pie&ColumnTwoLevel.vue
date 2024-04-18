@@ -2,14 +2,18 @@
   <el-card class="box-card">
     <template #header>
       <div class="card-header">
-        <span>Pie & Grouped Column</span>
+        <span class="card-title">Pie & Grouped Column</span>
+        <p class="card-desc">This is a two level associate chart, try to click on the pie chart category to go to the
+          secondary chart. Double click the pie chart to restore the data.</p>
       </div>
     </template>
 
     <div>
-      <AssociatePieChart :dataset="dataset" @filterDataByClickEvent="filterDataByClickEvent"
-        @filterDataByLegendInteract="filterDataByLegendInteract" />
-      <ColumnGroup :dataset="data.display" />
+      <AssociatePieChart
+          :dataset="dataset"
+          @filterDataByClickEvent="filterDataByClickEvent"
+          @filterDataByLegendInteract="filterDataByLegendInteract"/>
+      <ColumnGroup :dataset="data.display"/>
     </div>
   </el-card>
 </template>
@@ -18,7 +22,8 @@
 import AssociatePieChart from "@/components/Chart/AssociatePieChart";
 import ColumnGroup from "@/components/Chart/ColumnGroup";
 import dataset from '@/mock/dataset_pie_grouped_column.json'
-import { onMounted, reactive } from "vue";
+import {onMounted, reactive} from "vue";
+
 const data = reactive({
   dataset,
   display: [],
@@ -55,7 +60,6 @@ const filterDataByLegendInteract = (arr) => {
   }
   data.display = JSON.parse(JSON.stringify(display_arr));
 };
-
 
 
 </script>

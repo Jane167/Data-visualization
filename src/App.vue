@@ -34,6 +34,9 @@ import HeaderBar from "@/components/HeaderBar";
 * {
   margin: 0;
 }
+html {
+  font-size: 16px;
+}
 
 .el-card {
   overflow: visible !important;
@@ -51,4 +54,16 @@ import HeaderBar from "@/components/HeaderBar";
   color: #f6f6f6;
   box-shadow: #ccc 5px 5px 5px;
 }
+
+.card-title {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+.card-desc {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #000;
+}
+
+
 </style>
